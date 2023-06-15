@@ -61,3 +61,6 @@ print(df["Runs"].values[3])
 print("**************************")
 df["dob"] = "10/1/11"
 print(df)
+print("**************************")
+print(df.describe())
+
